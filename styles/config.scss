@@ -5,3 +5,9 @@ $tertiary-color: #59947c;
 $quaternary-color: #171a90;
 
 $poke-font: 'Press Start 2P', cursive;
+
+@mixin hover {
+    hover {
+        background: red;
+    }
+}
